@@ -1,3 +1,4 @@
+'''
 name = input('Ingrese su nombre: ').title()  #upper() lower()
 print(name)
 lastname = "Mejías Herrera"
@@ -43,14 +44,21 @@ text = text.replace('Volver al futuro','Inception')
 print(text)
 
 #Extraer una parte de un string
-string = "El hombre de negro huía a través del desierto, \ny el pistolero iba en pos de él"
+string = "El hombre de negro huía a través del desierto,\ny el pistolero iba en pos de él"
 print(string)
+
 #Extraeremos los primeros dieciocho caracteres
 extract01 = string[0:18] #No se incluye el 18
 print(extract01)
 #Extraeremos los últimmos 12 caracteres
 extract02 = string[-12:]
 print(extract02)
+'''
 
-
+#Rncontrar la primera o última posición de un caracter en un string
+string ="Hola. Este es un mensaje de prueba"
+first_position = string.find("e")
+print(first_position)
+last_position = string.rfind("e")
+print(last_position)
 

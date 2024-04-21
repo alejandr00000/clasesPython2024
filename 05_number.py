@@ -30,6 +30,9 @@ print(lives)
 #forma rápida
 lives **= 2
 
+#Se puede obtener el resto de una división
+resto = 42 % 5
+print(f'Resto: {resto}') 
 
 #FLOAT
 number = 3.5
